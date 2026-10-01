@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# MLflow tracking data is generated locally by `python src/train.py`
+mlflow.db
+mlruns/
+mlartifacts/
+
+.gradio/
+predictions.csv
